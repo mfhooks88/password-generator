@@ -40,12 +40,13 @@ if (numbersIncluded) {
 if (specialsIncluded) {
   combinedCharacters = combinedCharacters.concat(specialCharacters);
 }
-
-for (var i = 0; i <= initialClick; i++) {
-  finalResult.push(combinedCharacters[Math.random]);
+// got help from AskBCS helpdesk user "rojwilli" for lines 44-49
+for (var i = 0; i < initialClick; i++) {
+  var index = Math.floor(Math.random()*combinedCharacters.length)
+  finalResult.push(combinedCharacters[index]);
 }
-
-return finalResult;
+var result = finalResult.join("")
+return result;
 }
 
 //Write password to the #password input - already given in starter code
