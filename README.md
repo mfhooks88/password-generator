@@ -27,3 +27,7 @@
 ## no changes made to the HTML or CSS files as these were already given
 
 ## code was used from previous lessons from Bootcamp, and help found on MDN website and W3 schools website
+
+* <img width="961" alt="Screenshot 2023-12-20 at 2 26 17 PM" src="https://github.com/mfhooks88/password-generator/assets/152635274/3033e4ae-286c-499d-933f-089c506c32d4">
+
+https://mfhooks88.github.io/password-generator/
